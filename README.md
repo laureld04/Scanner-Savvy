@@ -18,6 +18,7 @@ Your go-to guide for <strong>scanner know-how</strong> in the lab:
   <ol>
     <li><a href="#coils">Coil Inventory</a></li>
     <li><a href="#acquisition">Acquisition Basics</a></li>
+    <li><a href="#Troubleshooting">Troubleshooting & Error Reporting</a></li>
     <li><a href="#specialized">Specialized Sequences</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License & Disclaimer</a></li>
@@ -53,6 +54,44 @@ Step-by-step guidelines for running standard acquisitions:
 </ul>
 
 <p><em>Detailed walkthroughs in <code>/docs/acquisition/</code>.</em></p>
+
+<hr/>
+
+<h2 id="troubleshooting">📝 Troubleshooting & Error Logging</h2>
+
+<p>
+Maintaining scanner health and reliability is a <strong>shared responsibility</strong>. 
+Every user benefits from accurate error reporting — it ensures problems are diagnosed quickly, 
+reduces downtime, and protects data quality across studies. 
+</p>
+
+<p>
+If you encounter <strong>any unusual scanner behavior</strong> (error messages, abnormal noises, failed sequences, unexpected image artifacts, etc.), it is your responsibility to <strong>log the issue immediately</strong>. 
+Even small problems can point to larger underlying hardware or software issues.
+</p>
+
+<h3>🚩 What to Report</h3>
+<ul>
+  <li>Scanner error codes, warnings, or crashes</li>
+  <li>Unusual sounds (gradient noise changes, coil clicks, fans)</li>
+  <li>Acquisition failures (unexpected sequence termination, missing channels)</li>
+  <li>Image artifacts that are new or unexplained</li>
+  <li>Safety-related events (coil heating, strong smells, emergency stops)</li>
+</ul>
+
+<h3>🛠️ How to Report</h3>
+<ol>
+  <li>Pause scanning safely (do not force reset unless required).</li>
+  <li>Note the time, sequence name, coil in use, and subject/phantom if applicable.</li>
+  <li>Take screenshots/photos if possible.</li>
+  <li>Submit a report using our <a href="YOUR_ONEDRIVE_SURVEY_LINK" target="_blank"><strong>Scanner Error Logging Form</strong></a>.</li>
+  <li>Follow up with lab staff if the error prevents continued scanning.</li>
+</ol>
+
+<p>
+<strong>Remember:</strong> Logging errors is not optional — it is a <em>lab-wide policy</em> that ensures fairness, 
+prevents repeated wasted scan time, and helps our technical staff and PIs keep the scanner safe and operational.  
+</p>
 
 <hr/>
 
