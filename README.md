@@ -18,7 +18,8 @@ Your go-to guide for <strong>scanner know-how</strong> in the lab:
   <ol>
     <li><a href="#coils">Coil Inventory</a></li>
     <li><a href="#acquisition">Acquisition Basics</a></li>
-    <li><a href="#Troubleshooting">Troubleshooting & Error Reporting</a></li>
+    <li><a href="#troubleshooting">Troubleshooting & Error Reporting</a></li>
+    <li><a href="#best pratices">Best Practices for Efficient & Reliable Scanning</a></li>
     <li><a href="#specialized">Specialized Sequences</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License & Disclaimer</a></li>
@@ -92,6 +93,50 @@ Even small problems can point to larger underlying hardware or software issues.
 <strong>Remember:</strong> Logging errors is not optional — it is a <em>lab-wide policy</em> that ensures fairness, 
 prevents repeated wasted scan time, and helps our technical staff and PIs keep the scanner safe and operational.  
 </p>
+
+
+<h2 id="best-practices">🌟 Best Practices for Efficient & Reliable Scanning</h2>
+
+<p>
+Beyond technical setup, <strong>good scanning habits</strong> ensure that experiments run smoothly, 
+animals spend less time under anesthesia, and scanner resources are used effectively.  
+These practices are expected of all scanner users.  
+</p>
+
+<h3>📊 Data & Image Review</h3>
+<ul>
+  <li><strong>Check images as soon as they are acquired</strong> — verify orientation, coverage, and quality before moving on.</li>
+  <li>Look for <em>obvious artifacts</em> (motion, ghosting, missing slices) immediately so issues can be corrected on the spot.</li>
+</ul>
+
+<h3>⏱️ Reducing Downtime (Especially in Animal Imaging)</h3>
+<ul>
+  <li>Prepare and queue your sequences <strong>before</strong> starting scans to avoid idle time.</li>
+  <li><strong>Edit or adjust sequences only while another scan is already running</strong> — this keeps the scanner busy at all times.</li>
+  <li>Use localizers strategically: run a localizer several sequences before your target imaging so that setup is not blocking data acquisition.</li>
+</ul>
+
+<h3>🧠 Example: CASL Imaging Workflow</h3>
+<ul>
+  <li>Step 1: Acquire a carotid image to visualize vessel location.</li>
+  <li>Step 2: Place the labeling plane accurately on the carotids.</li>
+  <li>Step 3: Set up the actual ASL imaging slice and run the sequence.</li>
+  <li><em>Tip:</em> While CASL labeling setup is being adjusted, ensure other sequences (e.g. localizer, scout scans) are already running to minimize idle scanner time.</li>
+</ul>
+
+<h3>⚡ General Efficiency Tips</h3>
+<ul>
+  <li>Save parameter sets for commonly used sequences to avoid repetitive setup.</li>
+  <li>Group related scans together to minimize table adjustments and shim recalibration.</li>
+  <li>Communicate with your team — plan your sequence order before the subject/animal is in the bore.</li>
+</ul>
+
+<p>
+<strong>Remember:</strong> Efficient scanning reduces stress on animals, 
+saves valuable scanner time, and improves the reproducibility of your experiments.
+</p>
+
+<hr/>
 
 <hr/>
 
